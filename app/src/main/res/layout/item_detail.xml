@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="30dp"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12dp"
+        android:textColor="#646363"
+        android:text="ngelababy 编辑
+Angelababy（杨颖），1989年2月28日出生于上海市，华语影视女演员、时尚模特。2003年，Angelababy以模特身份出道，此后，她因担任时尚模特而在香港崭露头角。2007年，她开始将工作重心转向大银幕。2011年，她在爱情片《夏日乐悠悠》中首次担任女主角。2012年，凭借言情片《第一次》获得第13届华语电影传媒大奖最受瞩目女演员奖。2013年，Angelababy与其她三位女艺人被《南都娱乐周刊》选为新“四小花旦”；同年，她还完成了个人的荧屏处女作《大汉情缘之云中歌》。"
+        />
+
+
+</RelativeLayout>

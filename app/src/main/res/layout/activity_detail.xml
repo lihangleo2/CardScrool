@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:id="@+id/image"
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@mipmap/guide_3_bg"
+        />
+
+    <RelativeLayout
+        android:padding="15dp"
+        android:layout_marginTop="-20dp"
+        android:layout_below="@+id/image"
+        android:id="@+id/relative"
+        android:background="@drawable/shape_corner"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/text_name_head"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="姓名 : "
+            android:textSize="16dp"
+            android:textColor="#000000"
+            android:visibility="invisible"
+            />
+
+        <TextView
+            android:layout_toRightOf="@+id/text_name_head"
+            android:id="@+id/text_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="岩浆李的游鱼Leo"
+            android:textSize="16dp"
+            android:textColor="#000000"
+            />
+
+
+        <TextView
+            android:visibility="invisible"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/text_name"
+            android:id="@+id/text_age_head"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="年龄 : "
+            android:textSize="16dp"
+            android:textColor="#000000"
+            />
+        <TextView
+            android:layout_toRightOf="@+id/text_age_head"
+            android:id="@+id/text_age"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="26"
+            android:textSize="16dp"
+            android:textColor="#000000"
+            />
+
+        <TextView
+            android:id="@+id/text_red"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ff0000"
+            android:text="我有影响吗"
+            />
+    </RelativeLayout>
+
+</RelativeLayout>
